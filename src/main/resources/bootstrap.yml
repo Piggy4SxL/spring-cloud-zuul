@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: zuul
+  cloud:
+      config:
+        discovery:
+          enabled: true
+          service-id: CONFIG-SERVER
+        profile: dev
+
